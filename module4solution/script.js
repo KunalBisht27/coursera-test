@@ -20,11 +20,13 @@ Hello Larry
 Hello Paula
 Hello Laura
 Good Bye Jim
+
 WARNING!!! WARNING!!!
 The code does NOT currently work! It is YOUR job to make it work
 as described in the requirements and the steps in order to complete this
 assignment.
 WARNING!!! WARNING!!!
+
 */
 
 // STEP 1:
@@ -32,12 +34,12 @@ WARNING!!! WARNING!!!
 // See Lecture 52, part 2
 // (Note, Step 2 will be done in the SpeakHello.js file.)
 (function () {
+  
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
 // STEP 10:
 // Loop over the names array and say either 'Hello' or "Good Bye"
 // using the 'speak' method or either helloSpeaker's or byeSpeaker's
-// 'speak' method.
 // See Lecture 50, part 1
 for (var i = 0; i < names.length; i++) {
 
@@ -61,4 +63,5 @@ for (var i = 0; i < names.length; i++) {
      helloSpeaker.speak(names[i]);
     }
 }
+  
 })();
